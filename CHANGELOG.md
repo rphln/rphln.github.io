@@ -9,10 +9,14 @@ adheres to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-  - Initial commit.
-  - Render equations with [KaTeX](https://katex.org/).
-  - The [“Learning”](learning.md) page.
+-   Initial commit.
+-   Render equations with [KaTeX](https://katex.org/).
+-   The [“Learning”](learning.md) page.
 
 ### Removed
 
-  - Acute accents as equation markers.
+-   Acute accents as equation markers.
+
+### Fixed
+
+-   Prettify files.
