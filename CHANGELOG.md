@@ -10,3 +10,4 @@ adheres to [Calendar Versioning](https://calver.org/).
 ### Added
 
   - Initial commit.
+  - Render equations with [KaTeX](https://katex.org/).
