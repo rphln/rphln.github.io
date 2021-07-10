@@ -2,3 +2,5 @@
     -   [Introduction](README.md)
     -   [Learning](learning.md)
     -   [Changelog](CHANGELOG.md)
+-   Notes
+    -   [Convolutions and Hexagons](convolutions-and-hexagons.md)
