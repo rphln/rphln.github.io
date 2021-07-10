@@ -11,3 +11,4 @@ adheres to [Calendar Versioning](https://calver.org/).
 
   - Initial commit.
   - Render equations with [KaTeX](https://katex.org/).
+  - The [“Learning”](learning.md) page.

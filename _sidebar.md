@@ -1,3 +1,4 @@
   - About
-      - [Introduction](README.md)  
+      - [Introduction](README.md)
+      - [Learning](learning.md)
       - [Changelog](CHANGELOG.md)
