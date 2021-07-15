@@ -40,27 +40,24 @@
       crossorigin="anonymous"
     ></script>
     <script>
+      const renderMath = () =>
+        renderMathInElement(document.body, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false },
+            { left: "\\(", right: "\\)", display: false },
+            { left: "\\[", right: "\\]", display: true },
+          ],
+        });
+
       window.$docsify = {
         name: "rphln",
         loadSidebar: true,
         subMaxLevel: 4,
-
-        plugins: [
-          (hook) =>
-            hook.doneEach(() =>
-              renderMathInElement(document.body, {
-                delimiters: [
-                  { left: "$$", right: "$$", display: true },
-                  { left: "$", right: "$", display: false },
-                  { left: "\\(", right: "\\)", display: false },
-                  { left: "\\[", right: "\\]", display: true },
-                ],
-              })
-            ),
-        ],
         markdown: {
           smartypants: true,
         },
+        plugins: [(hook) => hook.doneEach(renderMath)],
       };
     </script>
     <link rel="preload" href="README.md" as="fetch" crossorigin />
