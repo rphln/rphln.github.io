@@ -9,6 +9,6 @@ adheres to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
-- The [“Learning”](learning.md) page.
-- The [“Convolutions and Hexagons”](convolutions-and-hexagons.md)
+- The ["Learning"](learning.md) page.
+- The ["Convolutions and Hexagons"](convolutions-and-hexagons.md)
   page.
