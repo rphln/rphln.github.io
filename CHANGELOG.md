@@ -9,16 +9,6 @@ adheres to [Calendar Versioning](https://calver.org/).
 
 ### Added
 
--   Initial commit.
--   Render equations with [KaTeX](https://katex.org/).
--   The [“Learning”](learning.md) page.
--   The [“Convolutions and Hexagons”](convolutions-and-hexagons.md)
-    page.
-
-### Removed
-
--   Acute accents as equation markers.
-
-### Fixed
-
--   Prettify files.
+- The [“Learning”](learning.md) page.
+- The [“Convolutions and Hexagons”](convolutions-and-hexagons.md)
+  page.
