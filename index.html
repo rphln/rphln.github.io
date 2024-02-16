@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>/home/rphln</title>
+    <!-- Icon from [Twemoji](https://twemoji.twitter.com/), licensed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) by Twitter. -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PHBhdGggZmlsbD0iI0UxRThFRCIgZD0iTTMyLjQxNSA5LjU4NmwtOS05QzIzLjA1NC4yMjUgMjIuNTUzIDAgMjIgMGMtMS4xMDQgMC0xLjk5OS44OTYtMiAyIDAgLjU1Mi4yMjQgMS4wNTMuNTg2IDEuNDE1bC0zLjg1OSAzLjg1OSA5IDkgMy44NTktMy44NTljLjM2Mi4zNjEuODYyLjU4NSAxLjQxNC41ODUgMS4xMDQgMCAyLjAwMS0uODk2IDItMiAwLS41NTItLjIyNC0xLjA1Mi0uNTg1LTEuNDE0eiIvPjxwYXRoIGZpbGw9IiNDQ0Q2REQiIGQ9Ik0yMiAwSDdDNC43OTEgMCAzIDEuNzkxIDMgNHYyOGMwIDIuMjA5IDEuNzkxIDQgNCA0aDIyYzIuMjA5IDAgNC0xLjc5MSA0LTRWMTFoLTljLTEgMC0yLTEtMi0yVjB6Ii8+PHBhdGggZmlsbD0iIzk5QUFCNSIgZD0iTTIyIDBoLTJ2OWMwIDIuMjA5IDEuNzkxIDQgNCA0aDl2LTJoLTljLTEgMC0yLTEtMi0yVjB6bS01IDhjMCAuNTUyLS40NDggMS0xIDFIOGMtLjU1MiAwLTEtLjQ0OC0xLTFzLjQ0OC0xIDEtMWg4Yy41NTIgMCAxIC40NDggMSAxem0wIDRjMCAuNTUyLS40NDggMS0xIDFIOGMtLjU1MiAwLTEtLjQ0OC0xLTFzLjQ0OC0xIDEtMWg4Yy41NTIgMCAxIC40NDggMSAxem0xMiA0YzAgLjU1Mi0uNDQ3IDEtMSAxSDhjLS41NTIgMC0xLS40NDgtMS0xcy40NDgtMSAxLTFoMjBjLjU1MyAwIDEgLjQ0OCAxIDF6bTAgNGMwIC41NTMtLjQ0NyAxLTEgMUg4Yy0uNTUyIDAtMS0uNDQ3LTEtMSAwLS41NTMuNDQ4LTEgMS0xaDIwYy41NTMgMCAxIC40NDcgMSAxem0wIDRjMCAuNTUzLS40NDcgMS0xIDFIOGMtLjU1MiAwLTEtLjQ0Ny0xLTEgMC0uNTUzLjQ0OC0xIDEtMWgyMGMuNTUzIDAgMSAuNDQ3IDEgMXptMCA0YzAgLjU1My0uNDQ3IDEtMSAxSDhjLS41NTIgMC0xLS40NDctMS0xIDAtLjU1My40NDgtMSAxLTFoMjBjLjU1MyAwIDEgLjQ0NyAxIDF6Ii8+PC9zdmc+"
+    />
+    <link rel="preload" href="README.md" as="fetch" crossorigin />
+    <link rel="preload" href="_sidebar.md" as="fetch" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/themes/vue.css"
+      integrity="sha256-H43c3hD+HZ86tg3oRp7Sb5sJcW+4grIl1mbU9ig43i4="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css"
+      integrity="sha256-3574TpfThVfeAhg+I4+N39EJiLN3QUkuEsMVe8hWAR4="
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/docsify@4.13.1/lib/docsify.min.js"
+      integrity="sha256-kSP4CNP2rXNrSo+ZlEphH4fF1PkygDAIClwCntX0UKU="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"
+      integrity="sha256-1PDqJcTMt5hrIp1kJ3lLcGPPMgmwN2z1pkv8TdeRjJU="
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"
+      integrity="sha256-nLjaz8CGwpZsnsS6VPSi3EO3y+KzPOwaJ0PYhsf7R6c="
+      crossorigin="anonymous"
+      defer
+    ></script>
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      window.$docsify = {
+        name: document.title,
+        loadSidebar: true,
+        subMaxLevel: 4,
+        plugins: [
+          (hook, vm) => {
+            hook.doneEach(() => {
+              renderMathInElement(document.body, {
+                delimiters: [
+                  { left: "$$", right: "$$", display: true },
+                  { left: "$", right: "$", display: false },
+                ],
+              });
+            });
+          },
+        ],
+      };
+    </script>
+  </body>
+</html>
