@@ -1,0 +1,10 @@
+title: /home/rphln
+url: https://rphln.com/
+description: |
+  Really don't mind if you sit this one out.
+
+remote_theme: just-the-docs/just-the-docs
+
+nav_external_links:
+  - title: My GitHub
+    url: https://github.com/rphln
